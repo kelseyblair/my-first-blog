@@ -4,4 +4,3 @@ myvenv
 db.sqlite3
 /static/admin
 .DS_Store
-/mysite/settings.py
