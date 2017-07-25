@@ -1,32 +1,100 @@
 h1 a {
 	color: #FCA205;
-	font-family: lobster;
+	font-family: geneva;
 }
 
 h2 a {
-	color: #266D85;
-	font-family: lobster;
+	color: #b7bfc1;
 }
 
 .page-header {
-	background-color: #ff9400;
+	background-color: #2f1f90;
 	margin-top: 0;
-	padding: 20px 20px 20px 40px;
+	margin-bottom:20px;
+	padding: 20px 20px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active{
-	color: #ffffff;
-	font-sixe: 36pt;
+	color: #b7bfc1;
+	font-size: 36pt;
 	text-decoration: none;
+	margin-left:8.33%;
 }
 
 .content {
 	margin-left: 40px;
+	margin-top: 40px;
+	margin-right:40px;
+}
+
+.container {
+	width:90%;
 }
 
 h1, h2, h3, h4 {
-	font-family: lobster, cursive;
+	font-family: geneva;
+	margin-top:0;
+	margin-bottom: 0;
 }
+
+/*.container {
+	width:;
+}*/
+
+.row {
+	padding:70px 70px 50px 70px;
+
+}
+
+.circle h2 {
+	display:inline-block;
+	vertical-align:middle;
+	width:90%;
+	font-size:1em;
+	line-height:100%;
+}
+
+@media only screen and (min-width:481px) {
+	.circle h2 {
+		font-size: 2em;
+		width:90%;
+	}
+}
+
+
+.circle {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  padding:50% 0;
+  margin-bottom:30px;
+  border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+
+  color: #fff;
+  line-height: normal;
+  text-align: center;
+  vertical-align:middle;
+
+  background: #000;
+
+
+  float:left;
+  
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+
+.circle:hover {
+    background-color: maroon;
+    color: #fff;
+}
+
 
 .date {
 	float: right;
@@ -47,12 +115,4 @@ h1, h2, h3, h4 {
 	float: right;
 	font-size: 26pt;
 	margin-right: 20px;
-}
-
-.post {
-	margin-bottom: 70px;
-}
-
-.post h2 a, .post h2 a:visited {
-	color: #000000;
 }
